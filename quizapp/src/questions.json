@@ -1,0 +1,144 @@
+{
+    "1": {
+        "name": "Test quiz 1",
+        "subject" : "Data Structures",
+        "questions": [
+            {
+                "question": "What is the first letter of the alphabet?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "Alpha",
+                    "B": "B",
+                    "C": "C",
+                    "D": "D"
+                },
+                "answer": "Alpha"
+            },
+            {
+                "question": "What is the second letter of the alphabet?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "C",
+                    "D": "D"
+                },
+                "answer": "B"
+            },
+            {
+                "question": "What is the third letter of the alphabet?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "A",
+                    "B": "B",
+                    "C": "C",
+                    "D": "D"
+                },
+                "answer": "C"
+            },
+            {
+                "question": "_____ is a data structure of collection of nodes which contain some data and a link to another node",
+                "type": "fill_in_the_blank",
+                "answer_choices": {},
+                "answer": "linked list"
+            }
+        ]
+    },
+    "2": {
+        "name": "Test quiz 2",
+        "subject": "General CS topics",
+        "questions": [
+                {
+                "question": "Which agents selects actions based on current precept, disregarding precept sequence?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "Simple reflex agent",
+                    "B": "Goal-based agent",
+                    "C": "Utility-based agent",
+                    "D": "Model-based Agent"
+                },
+                "answer": "Model-based Agent"
+            },
+            {
+
+                "question": "Which of the following is a linear data structure?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "AVL Trees",
+                    "B": "Binary Trees",
+                    "C": "Array",
+                    "D": "Graphs"
+                },
+                "answer": "Array"
+            },
+            {
+                "question": "How is the 2nd element in an array accessed based on pointer notation?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "*a + 2",
+                    "B": "*(a+2)",
+                    "C": "*(*a + 2)",
+                    "D": "&(a + 2)"
+                },
+                "answer": "*a + 2"
+            },
+            {
+
+                "question": "Which of the following algorithms are used to find the shortest path from a source node to all other nodes in a weighted graph?",
+                "type": "multiple_choice",
+                "answer_choices": {
+                    "A": "BFS",
+                    "B": "Kruskal's Algorithm",
+                    "C": "Prims Algorithm",
+                    "D": "Djikstra's Algorithm"
+                },
+                "answer": "Djikstra's Algorithm"
+            },
+            {
+                "question": "Which of the following algorithms are used to find the shortest path from a source node to all other nodes in a weighted graph?",
+                "type": "true_false",
+                "answer_choices": {
+                    "T": "True",
+                    "F": "False"
+                },
+                "answer": "True"
+            },
+            {
+                "question": "Binary search in a sorted array is worst case O(n)",
+                "type": "true_false",
+                "answer_choices": {
+                    "T": "True",
+                    "F": "False"
+                },
+                "answer": "True"
+            },
+            {
+                "question": "The number of collisions in a hash table is solely dependent on the table capacity and the hash function",
+                "type": "true_false",
+                "answer_choices": {
+                    "T": "True",
+                    "F": "False"
+                },
+                "answer": "False"
+            },
+            {
+                "question": "AVL trees and BSTs never have the same tight big-O runtime for inserting elements",
+                "type": "true_false",
+                "answer_choices": {
+                    "T": "True",
+                    "F": "False"
+                },
+                "answer": "False"
+            },
+            {
+                "question": "To find the shortest path from one vertex to another in an unweighted graph, you should use Dijkstra’s algorithm as it is the most efficient solution.",
+                "type": "true_false",
+                "answer_choices": {
+                    "T": "True",
+                    "F": "False"
+                },
+                "answer": "False"
+            }
+        ]
+    }
+}
